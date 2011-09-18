@@ -1,4 +1,4 @@
-%define		_beta	beta31
+%define		_beta	beta34
 Summary:	Roguelike game set in the world of Eyal
 Summary(pl.UTF-8):	Gra roguelike osadzona w świecie Eyal
 Name:		t-engine4
@@ -7,7 +7,7 @@ Release:	0.%{_beta}.1
 License:	GPL v3+
 Group:		X11/Applications/Games
 Source0:	http://te4.org/dl/t-engine/%{name}-src-%{version}%{_beta}.tar.bz2
-# Source0-md5:	d05d0e32cfe545456e38614ea110210e
+# Source0-md5:	14c59beaef7c567ba1fbfa94725e99fa
 URL:		http://te4.org/
 BuildRequires:	SDL_ttf-devel
 BuildRequires:	premake >= 4.0
